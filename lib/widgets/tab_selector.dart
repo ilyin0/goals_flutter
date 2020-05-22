@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:goalsflutter/models/models.dart';
+import 'package:goalsflutter/style/style.dart';
 
 class TabSelector extends StatelessWidget {
   final AppTab activeTab;
@@ -15,7 +16,7 @@ class TabSelector extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      selectedItemColor: Colors.green,
+      selectedItemColor: themeColor,
       currentIndex: AppTab.values.indexOf(activeTab),
       onTap: (index) => onTabSelected(AppTab.values[index]),
       items: AppTab.values.map((tab) {
