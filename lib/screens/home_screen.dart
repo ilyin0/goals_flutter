@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:goalsflutter/blocs/authentication_bloc/authentication_bloc.dart';
-import 'package:goalsflutter/blocs/authentication_bloc/bloc.dart';
+import 'package:goalsflutter/blocs/authentication/bloc.dart';
 import 'package:goalsflutter/blocs/blocs.dart';
+import 'package:goalsflutter/models/models.dart';
 import 'package:goalsflutter/style/style.dart';
 import 'package:goalsflutter/widgets/widgets.dart';
-import 'package:goalsflutter/models/models.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

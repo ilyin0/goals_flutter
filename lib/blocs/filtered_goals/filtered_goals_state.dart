@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-
 import 'package:goals_repository/goals_repository.dart';
 import 'package:goalsflutter/models/models.dart';
 

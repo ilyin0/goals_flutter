@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:goalsflutter/blocs/authentication_bloc/bloc.dart';
+import 'package:goalsflutter/blocs/authentication/bloc.dart';
 import 'package:goalsflutter/blocs/register/bloc.dart';
 import 'package:goalsflutter/style/style.dart';
 import 'package:goalsflutter/widgets/register_button.dart';

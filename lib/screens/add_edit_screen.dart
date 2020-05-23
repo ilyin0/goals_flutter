@@ -51,7 +51,7 @@ class _AddEditScreenState extends State<AddEditScreen> {
                 cursorColor: themeColor,
                 initialValue: isEditing ? widget.goal.task : '',
                 autofocus: !isEditing,
-                style: textTheme.headline,
+                style: textTheme.headline5,
                 decoration: InputDecoration(
                   hintText: 'What needs to be done?',
                   focusedBorder: UnderlineInputBorder(
@@ -67,7 +67,7 @@ class _AddEditScreenState extends State<AddEditScreen> {
                 autocorrect: true,
                 initialValue: isEditing ? widget.goal.note : '',
                 maxLines: 10,
-                style: textTheme.subhead,
+                style: textTheme.subtitle1,
                 decoration: InputDecoration(
                   hintText: 'Additional Notes...',
                   focusedBorder: UnderlineInputBorder(

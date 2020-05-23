@@ -1,8 +1,9 @@
 import 'dart:async';
+
 import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
-import 'package:goalsflutter/blocs/goals/goals.dart';
 import 'package:goals_repository/goals_repository.dart';
+import 'package:goalsflutter/blocs/goals/goals.dart';
+import 'package:meta/meta.dart';
 
 class GoalsBloc extends Bloc<GoalsEvent, GoalsState> {
   final GoalsRepository _goalsRepository;

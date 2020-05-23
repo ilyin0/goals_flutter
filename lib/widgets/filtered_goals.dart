@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:goalsflutter/blocs/blocs.dart';
-import 'package:goalsflutter/widgets/widgets.dart';
 import 'package:goalsflutter/screens/screens.dart';
+import 'package:goalsflutter/widgets/widgets.dart';
 
 class FilteredGoals extends StatelessWidget {
   FilteredGoals({Key key}) : super(key: key);

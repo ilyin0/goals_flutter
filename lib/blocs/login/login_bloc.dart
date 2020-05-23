@@ -1,10 +1,12 @@
 import 'dart:async';
+
 import 'package:bloc/bloc.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:goalsflutter/models/validators.dart';
 import 'package:meta/meta.dart';
 import 'package:user_repository/user_repository.dart';
+
 import './bloc.dart';
 
 class LoginBloc extends Bloc<LoginEvent, LoginState> {

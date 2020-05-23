@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-
 import 'package:goalsflutter/models/models.dart';
 
 abstract class TabEvent extends Equatable {
